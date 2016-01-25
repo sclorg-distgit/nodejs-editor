@@ -4,7 +4,7 @@
 %{?nodejs_find_provides_and_requires}
 
 Name:           %{?scl_prefix}nodejs-editor
-Version:        0.1.0
+Version:        1.0.0
 Release:        1%{?dist}
 Summary:        Launch the default text editor from Node.js programs
 BuildArch:      noarch
@@ -53,6 +53,9 @@ rm -rf %buildroot
 %doc README.markdown LICENSE example
 
 %changelog
+* Mon Nov 30 2015 Tomas Hrcka <thrcka@redhat.com> - 1.0.0-1
+- New upstream release
+
 * Fri Jan 09 2015 Tomas Hrcka <thrcka@redhat.com> - 0.1.0-2
 - New upstream release 0.1.0
 
